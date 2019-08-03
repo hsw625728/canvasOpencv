@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a6c3da5-01ed-470e-8f25-81655f4b6166" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_face_detection_camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_face_detection_camera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="124" column="37" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="37" />
+            <state relative-caret-position="35">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-317">
+              <caret line="17095" column="4" selection-start-line="17095" selection-start-column="4" selection-end-line="17095" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -32,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js_face_detection_camera.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+            <state relative-caret-position="133">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -82,6 +91,7 @@
     <findStrings>
       <find>imread</find>
       <find>codeEditor</find>
+      <find>addWeighted</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,8 +101,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/utils.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js_face_detection_camera.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -103,8 +113,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="25" />
+    <option name="x" value="63" />
+    <option name="y" value="24" />
     <option name="width" value="1499" />
     <option name="height" value="947" />
   </component>
@@ -162,7 +172,7 @@
       <workItem from="1564755122516" duration="1558000" />
       <workItem from="1564761212955" duration="17000" />
       <workItem from="1564761252058" duration="23000" />
-      <workItem from="1564761299026" duration="6145000" />
+      <workItem from="1564761299026" duration="8901000" />
     </task>
     <task id="LOCAL-00001" summary="本地运行没问题。">
       <created>1564761577677</created>
@@ -171,14 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564761577677</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="本地运行没问题。">
+      <created>1564812059432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564812059432</updated>
+    </task>
+    <task id="LOCAL-00003" summary="本地运行没问题。">
+      <created>1564812418600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564812418600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9782000" />
+    <option name="totallyTimeSpent" value="12538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="25" width="1499" height="947" extended-state="0" />
+    <frame x="63" y="24" width="1499" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928282" />
@@ -226,13 +250,6 @@
         <state relative-caret-position="-800" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="124" column="37" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -242,8 +259,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js_face_detection_camera.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+        <state relative-caret-position="133">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="17095" column="4" selection-start-line="17095" selection-start-column="4" selection-end-line="17095" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>
