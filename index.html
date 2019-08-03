@@ -88,7 +88,6 @@
         startAndStop.innerText = 'Stop';
         videoInput.width = videoInput.videoWidth;
         videoInput.height = videoInput.videoHeight;
-        //utils.executeCode('codeEditor');
         let video = document.getElementById('videoInput');
         let src = new cv.Mat(video.height, video.width, cv.CV_8UC4);
         let dst = new cv.Mat(video.height, video.width, cv.CV_8UC4);
@@ -98,7 +97,7 @@
         let faces = new cv.RectVector();
         let classifier = new cv.CascadeClassifier();
 
-// load pre-trained classifiers
+        // load pre-trained classifiers
         classifier.load('haarcascade_frontalface_default.xml');
 
         const FPS = 30;
