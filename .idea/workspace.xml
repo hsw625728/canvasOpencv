@@ -19,8 +19,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="546">
+              <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+              <folding>
+                <element signature="e#4056#4249#0" />
+                <element signature="e#4277#4417#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,10 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencvzip.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="267">
+              <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -62,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="13" column="24" lean-forward="true" selection-end-line="59" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -84,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -92,6 +106,7 @@
       <find>imread</find>
       <find>codeEditor</find>
       <find>addWeighted</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,6 +117,7 @@
       <list>
         <option value="$PROJECT_DIR$/utils.js" />
         <option value="$PROJECT_DIR$/js_face_detection_camera.html" />
+        <option value="$PROJECT_DIR$/opencvzip.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -113,8 +129,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="24" />
+    <option name="x" value="17" />
+    <option name="y" value="31" />
     <option name="width" value="1499" />
     <option name="height" value="947" />
   </component>
@@ -172,7 +188,7 @@
       <workItem from="1564755122516" duration="1558000" />
       <workItem from="1564761212955" duration="17000" />
       <workItem from="1564761252058" duration="23000" />
-      <workItem from="1564761299026" duration="8901000" />
+      <workItem from="1564761299026" duration="15410000" />
     </task>
     <task id="LOCAL-00001" summary="本地运行没问题。">
       <created>1564761577677</created>
@@ -195,14 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564812418600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="椭圆蒙板添加完毕">
+      <created>1564815624421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564815624421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12538000" />
+    <option name="totallyTimeSpent" value="19047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="24" width="1499" height="947" extended-state="0" />
+    <frame x="17" y="31" width="1499" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928282" />
@@ -229,16 +252,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="本地运行没问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="本地运行没问题。" />
+    <MESSAGE value="椭圆蒙板添加完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="椭圆蒙板添加完毕" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/opencv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -250,10 +267,24 @@
         <state relative-caret-position="-800" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="-317">
+          <caret line="17095" column="4" selection-start-line="17095" selection-start-column="4" selection-end-line="17095" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="24" lean-forward="true" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencvzip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -264,17 +295,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="17095" column="4" selection-start-line="17095" selection-start-column="4" selection-end-line="17095" selection-end-column="4" />
+        <state relative-caret-position="267">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="546">
+          <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+          <folding>
+            <element signature="e#4056#4249#0" />
+            <element signature="e#4277#4417#0" />
+          </folding>
         </state>
       </provider>
     </entry>
