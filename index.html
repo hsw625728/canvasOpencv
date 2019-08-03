@@ -76,9 +76,9 @@
             console.log('Using media constraints:', constraints);
             startRecording();
         } else {
+            stopRecording();
             utils.stopCamera();
             onVideoStopped();
-            stopRecording();
             download();
         }
     });
