@@ -150,18 +150,7 @@
     let recordedBlobs;
     let sourceBuffer;
 
-    const canvas = canvasOutput;//document.querySelector('canvas');
-    //const video = document.querySelector('video');
-
-    // const recordButton = document.querySelector('button#record');
-    // const playButton = document.querySelector('button#play');
-    // const downloadButton = document.querySelector('button#download');
-    // recordButton.onclick = toggleRecording;
-    // playButton.onclick = play;
-    // downloadButton.onclick = download;
-
-    // Start the GL teapot on the canvas
-    //main();
+    const canvas = canvasOutput;
 
     const stream = canvas.captureStream(); // frames per second
     console.log('Started stream capture from canvas element: ', stream);
@@ -180,20 +169,8 @@
 
     function handleStop(event) {
         console.log('Recorder stopped: ', event);
-        //const superBuffer = new Blob(recordedBlobs, {type: 'video/webm'});
-        //video.src = window.URL.createObjectURL(superBuffer);
     }
 
-    // function toggleRecording() {
-    //     if (recordButton.textContent === 'Start Recording') {
-    //         startRecording();
-    //     } else {
-    //         stopRecording();
-    //         recordButton.textContent = 'Start Recording';
-    //         playButton.disabled = false;
-    //         downloadButton.disabled = false;
-    //     }
-    // }
 
     // The nested try blocks will be simplified when Chrome 47 moves to Stable
     function startRecording() {
@@ -221,9 +198,6 @@
             }
         }
         console.log('Created MediaRecorder', mediaRecorder, 'with options', options);
-        // recordButton.textContent = 'Stop Recording';
-        // playButton.disabled = true;
-        // downloadButton.disabled = true;
         mediaRecorder.onstop = handleStop;
         mediaRecorder.ondataavailable = handleDataAvailable;
         mediaRecorder.start(100); // collect 100ms of data
@@ -233,12 +207,7 @@
     function stopRecording() {
         mediaRecorder.stop();
         console.log('Recorded Blobs: ', recordedBlobs);
-        //video.controls = true;
     }
-
-    // function play() {
-    //     video.play();
-    // }
 
     function download() {
         const blob = new Blob(recordedBlobs, {type: 'video/webm'});
