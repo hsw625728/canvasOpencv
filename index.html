@@ -12,7 +12,7 @@
 </p>
 <div>
     <div class="control"><button id="startAndStop" disabled>Start</button></div>
-    <textarea class="code" rows="29" cols="80" id="codeEditor" spellcheck="false">
+    <!--textarea class="code" rows="29" cols="80" id="codeEditor" spellcheck="false"-->
 </textarea>
 </div>
 <p class="err" id="errorMessage"></p>
@@ -47,16 +47,33 @@
     let utils = new Utils('errorMessage');
 
     let streaming = false;
+    let stream;
     let videoInput = document.getElementById('videoInput');
     let startAndStop = document.getElementById('startAndStop');
     let canvasOutput = document.getElementById('canvasOutput');
     let canvasContext = canvasOutput.getContext('2d');
 
 
-    startAndStop.addEventListener('click', () => {
+    startAndStop.addEventListener('click', async () => {
         if (!streaming) {
             utils.clearError();
             utils.startCamera('qvga', onVideoStarted, 'videoInput');
+            const constraints = {
+                audio: {
+                    echoCancellation: {exact: true}
+                },
+                video: {
+                    width: 1280, height: 720
+                }
+            };
+            try {
+                stream = await navigator.mediaDevices.getUserMedia(constraints);
+            } catch (e) {
+                console.error('navigator.getUserMedia error:', e);
+                errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+            }
+
+            console.log('Using media constraints:', constraints);
             startRecording();
         } else {
             utils.stopCamera();
@@ -150,9 +167,9 @@
     let recordedBlobs;
     let sourceBuffer;
 
-    const canvas = canvasOutput;
+    //const canvas = canvasOutput;
+    //const stream = canvas.captureStream(); // frames per second
 
-    const stream = canvas.captureStream(); // frames per second
     console.log('Started stream capture from canvas element: ', stream);
 
     function handleSourceOpen(event) {
