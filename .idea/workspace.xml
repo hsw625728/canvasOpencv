@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6c3da5-01ed-470e-8f25-81655f4b6166" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AudioVideoTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-              <folding>
-                <element signature="e#4277#4417#0" />
-              </folding>
+            <state relative-caret-position="742">
+              <caret line="234" selection-start-line="234" selection-end-line="235" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AudioVideoTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,6 +115,7 @@
       <find>main</find>
       <find>stream =</find>
       <find>init</find>
+      <find>mediaRecorder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,8 +138,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="199" />
-    <option name="y" value="31" />
+    <option name="x" value="46" />
+    <option name="y" value="52" />
     <option name="width" value="1499" />
     <option name="height" value="947" />
   </component>
@@ -164,6 +171,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -190,7 +202,7 @@
       <workItem from="1564755122516" duration="1558000" />
       <workItem from="1564761212955" duration="17000" />
       <workItem from="1564761252058" duration="23000" />
-      <workItem from="1564761299026" duration="17652000" />
+      <workItem from="1564761299026" duration="20092000" />
     </task>
     <task id="LOCAL-00001" summary="本地运行没问题。">
       <created>1564761577677</created>
@@ -234,14 +246,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564834113747</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提高了视频分辨率。&#10;视频添加了声音通道。">
+      <created>1564836714129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564836714129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="基础流程打通。">
+      <created>1564838008417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564838008417</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21289000" />
+    <option name="totallyTimeSpent" value="23729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="199" y="31" width="1499" height="947" extended-state="0" />
+    <frame x="46" y="52" width="1499" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928282" />
@@ -271,7 +297,21 @@
     <MESSAGE value="椭圆蒙板添加完毕" />
     <MESSAGE value="录制完毕后，下载录制的视频。" />
     <MESSAGE value="删除冗余代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除冗余代码" />
+    <MESSAGE value="提高了视频分辨率。&#10;视频添加了声音通道。" />
+    <MESSAGE value="基础流程打通。" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础流程打通。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>158</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ReadMe">
@@ -322,11 +362,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-          <folding>
-            <element signature="e#4277#4417#0" />
-          </folding>
+        <state relative-caret-position="742">
+          <caret line="234" selection-start-line="234" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioVideoTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
